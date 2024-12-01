@@ -30,7 +30,7 @@ export default function Home() {
   ];
   return (
     <div className="w-full h-screen flex overflow-hidden relative">
-      {Array.from({ length: 12 }).map((_, index) => (
+      {Array.from({ length: 24 }).map((_, index) => (
         <p
           key={index}
           className={`absolute text-3xl font-bold text-white -z-20`}
